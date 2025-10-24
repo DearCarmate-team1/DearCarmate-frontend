@@ -16,7 +16,7 @@ npm install
 예를들어서 로컬 백엔드 서버의 주소가 `http://localhost:3001`이라면 다음과 같이 설정합니다.
 
 ```
-NEXT_PUBLIC_API_URL=http://localhost:3001
+NEXT_PUBLIC_BASE_URL=http://localhost:3001
 ```
 
 이 환경 변수는 Next.js 서버에서 백엔드 서버 주소로 쓸 값입니다. `shared/axios.ts` 파일에서 axios 인스턴스 `baseURL` 설정에 사용됩니다.
